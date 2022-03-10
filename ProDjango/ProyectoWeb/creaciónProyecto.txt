@@ -1,0 +1,28 @@
+
+//Creando el proyecto en Django
+gburgos@gburgos:~/Documents/ProDjango$ django-admin startproject ProyectoWeb
+//reviando la creación del proyecto
+gburgos@gburgos:~/Documents/ProDjango$ ll
+drwxrwxr-x  4 gburgos gburgos 4096 abr  3 19:38 ./
+drwxr-xr-x 22 gburgos gburgos 4096 mar 28 17:30 ../
+drwxrwxr-x  4 gburgos gburgos 4096 mar 28 18:17 mySite/
+drwxrwxr-x  3 gburgos gburgos 4096 abr  3 19:38 ProyectoWeb/
+//Ingresando al proyecto creado
+gburgos@gburgos:~/Documents/ProDjango$ cd ProyectoWeb/
+gburgos@gburgos:~/Documents/ProDjango/ProyectoWeb$ ll
+drwxrwxr-x 3 gburgos gburgos 4096 abr  3 19:38 ./
+drwxrwxr-x 4 gburgos gburgos 4096 abr  3 19:38 ../
+-rwxrwxr-x 1 gburgos gburgos  631 abr  3 19:38 manage.py*
+drwxrwxr-x 2 gburgos gburgos 4096 abr  3 19:38 ProyectoWeb/
+//Creando la aplicación
+gburgos@gburgos:~/Documents/ProDjango/ProyectoWeb$ python manage.py startapp ProyectoWebApp
+//revisando y levantando el proyecto
+gburgos@gburgos:~/Documents/ProDjango/ProyectoWeb$ ll
+drwxrwxr-x 4 gburgos gburgos 4096 abr  3 19:39 ./
+drwxrwxr-x 4 gburgos gburgos 4096 abr  3 19:38 ../
+-rwxrwxr-x 1 gburgos gburgos  631 abr  3 19:38 manage.py*
+drwxrwxr-x 3 gburgos gburgos 4096 abr  3 19:38 ProyectoWeb/
+drwxrwxr-x 3 gburgos gburgos 4096 abr  3 19:39 ProyectoWebApp/
+gburgos@gburgos:~/Documents/ProDjango/ProyectoWeb$ python manage.py runserver
+/*Luego de este paso ingresar a http://localhost:8000/ despues de runserver se puede determinar si se desea otro puerto*/
+//pŕoximo paso es ingresar a views.py en la app y urls.py del proyectoPrincipal

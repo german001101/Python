@@ -1,0 +1,43 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static%}
+
+{% block content %}
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Tienda</span>
+            <span class="section-heading-lower">El mejor stock</span>
+          </h2>
+          <p class="mb-3">Nuestra atención destaca sobre las demás</p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Compromiso total</span>
+                <span class="section-heading-lower">Garantizado</span>
+              </h2>
+              <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, nihil dolore voluptas culpa asperiores, temporibus sequi quae atque delectus enim veritatis doloribus, nisi corporis reprehenderit magnam earum. Numquam, suscipit corporis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+{% endblock %}
