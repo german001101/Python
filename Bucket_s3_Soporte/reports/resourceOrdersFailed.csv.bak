@@ -1,0 +1,73 @@
+tenant,errorMessage,resourceType,total
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +526566175044 not found on any FSDB|hss1:3503:The object: publicId=sip:\+526566175044@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528127183340 not found on any FSDB|hss1:3503:The object: publicId=sip:\+528127183340@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+AXTELLEGO||GponOnuSpecProfile_Id not found||NMS||2
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +523323046176 not found on any FSDB|hss1:3503:The object: publicId=sip:\+523323046176@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528183704864 not found on any FSDB|hss1:3503:The object: publicId=sip:\+528183704864@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +525555449903 not found on any FSDB)||NMS||1
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528183388148 not found on any FSDB|hss1:3503:The object: publicId=sip:\+528183388148@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||2
+AXTELLEGO||INTERNAL_ERROR||NMS||18
+AXTELLEGO||CS_ONU_MUST_BE_UP_FOR_RUNNING_COMMANDS||NMS||52
+AXTELLEGO||Request execution failed. Rollback done successfully.:RFS1-(hss1:3503:The object: uid=90111248,ds=SUBSCRIBER,o=DEFAULT,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+AXTELLEGO||COMPLETE_FAILURE||NMS||14
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528183535797 not found on any FSDB|hss1:3503:The object: publicId=sip:\+528183535797@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+AXTELLEGO||CS_DUPLICATE_VLAN_SLAN_ERROR||NMS||1
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528184000911 not found on any FSDB|hss1:3503:The object: publicId=sip:\+528184000911@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||2
+AXTELLEGO||Service Id Not Found||NMS||25
+AXTELLEGO||Request execution failed.:RFS1-(bst1:BST262:Found not a GPON user)||NMS||3
+AXTELLEGO||DS_UCV_BRIDGE_LOGICAL||NMS||1
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +523336323166 not found on any FSDB)||NMS||2
+AXTELLEGO||Bridge Not Found||NMS||3
+AXTELLEGO||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528180041512 not found on any FSDB)||NMS||2
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +526184490222 not found on any FSDB)||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:50002:CTS Error. Failed to perform 'Subscriber Mod (CSD)' operation. Cause of initial failure = '[cnantas01-fsdb0] NE response failure - subscriber not found, partyid = +526184964428, PUID = sip:+526184964428@ims.izzi.mx [DBERROR]  (element=ServiceList)')||NMS||1
+IZZIMX||Error MAC Not Found||NMS||5
+IZZIMX||Error Not Found MAC||NMS||5
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528181149408 not found on any FSDB)||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +523315887696 not found on any FSDB|hss1:3503:The object: publicId=sip:\+523315887696@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:50002:CTS Error. Failed to perform 'Subscriber Mod (CSD)' operation. Cause of initial failure = '[cnantas01-fsdb0] NE response failure - subscriber not found, partyid = +528123174913, PUID = sip:+528123174913@ims.izzi.mx [DBERROR]  (element=Party)')||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +525578227722 not found on any FSDB|hss1:3503:The object: publicId=sip:\+525578227722@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528127439615 not found on any FSDB)||NMS||2
+IZZIMX||ONU Does not exist||NMS||4
+IZZIMX||NWS_WRONG_VALUE_ERROR||NMS||3
+IZZIMX||Request execution failed. Rollback done successfully.:RFS1-(hss1:4015:Entry privateUserId:+523338535371@ims.izzi.mx in PrivateUserId already exists.)||NMS||1
+IZZIMX||Request execution failed.:RFS1-(bst1:BST007:User DN is missing.)||NMS||4
+IZZIMX||Resource has been previously stopped||NMS||1
+IZZIMX||Ont Id not found||NMS||8
+IZZIMX||DS_UCV_BRIDGE_LOGICAL||NMS||2
+IZZIMX||bandwidthProfile: 'STRING' variable was expected but 'ARRAY' variable was returned||NMS||3
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +525578227721 not found on any FSDB|hss1:3503:The object: publicId=sip:\+525578227721@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||1
+IZZIMX||Request execution failed. Rollback done successfully.:RFS1-(cts1:50009:CTS Error. Failed to perform 'Subscriber Add (Simplex)' operation. Cause of initial failure = '[zpnntas01-fsdb0] NE response failure - subscriber already exists, partyid = +525589516375 [DUPLICATEKEY]  (element=Party)')||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +528131817787 not found on any FSDB)||NMS||1
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +525562693976 not found on any FSDB|hss1:3503:The object: publicId=sip:\+525562693976@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||3
+IZZIMX||Request execution failed. Rollback done successfully.:RFS1-(hss1:4015:Entry privateUserId:+528181600095@ims.izzi.mx in PrivateUserId already exists.)||NMS||1
+IZZIMX||device operation failed (SNMP operation failed)||NMS||2
+IZZIMX||CS_ONU_MUST_BE_UP_FOR_RUNNING_COMMANDS||NMS||78
+IZZIMX||CS_DUPLICATE_VLAN_SLAN_ERROR||NMS||5
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +525522102795 not found on any FSDB)||NMS||4
+IZZIMX||500 Internal Server Error||NMS||6
+IZZIMX||P_USERNAME value is missing||NMS||19
+IZZIMX||Request execution failed.:RFS1-(bst1:BST262:Found not a GPON user)||NMS||21
+IZZIMX||GPON port add failed. 
+OperationStatus: Failure, errorName: Unable to create Gpon Port.
+CAC failure reason => GEM Port cannot be created because a GEM Port already exists with the specified shelf, slot, port and subPort values
+on Port = 1-2-5-1921, description: null||NMS||1
+IZZIMX||device operation failed (The operation object has existed)||NMS||4
+IZZIMX||Could not translate bandwith profile "izzi 500"||NMS||12
+IZZIMX||Already exists||NMS||5
+IZZIMX||Request execution failed.:RFS1-(hss1:3503:The object: publicId=sip:\+525552330397@ims.izzi.mx,dc=IMPU,dc=C-NTDB - was not found in the One-NDS.)||NMS||2
+IZZIMX||Timer has expired before completing operation||NMS||2
+IZZIMX||Request execution failed. Rollback done successfully.:RFS1-(hss1:4015:Entry privateUserId:+528133688116@ims.izzi.mx in PrivateUserId already exists.)||NMS||1
+IZZIMX||GPON port add failed. 
+OperationStatus: Failure, errorName: DS_PHYSICAL_PK_ERROR, description: null||NMS||1
+IZZIMX||JavaScript Exception  - Line: 69 - ReferenceError: OntStatus is not defined||NMS||8
+IZZIMX||Request execution failed.:RFS1-(cts1:50002:CTS Error. Failed to perform 'Subscriber Mod (CSD)' operation. Cause of initial failure = '[cnantas01-fsdb0] NE response failure - Failed to update the subscriber in the remote database, PUID = sip:+525552330397@ims.izzi.mx, Party ID = +525552330397, overallResultCode = 0x11389, error_msg = HSS Read failed for CSD, errorCode=5001. [DBERROR]  (element=Party)')||NMS||1
+IZZIMX||p_serviceID: 'STRING' variable was expected but 'ARRAY' variable was returned||NMS||5
+IZZIMX||Request execution failed.:RFS1-(cts1:4:Object does not exist. PartyId +524499139744 not found on any FSDB)||NMS||2
+IZZIMX||Request execution failed. Rollback done successfully.:RFS1-(hss1:4015:Entry privateUserId:+523339970527@ims.izzi.mx in PrivateUserId already exists.)||NMS||1
+IZZIMX||Request execution failed. Rollback done successfully.:RFS1-(hss1:4015:Entry privateUserId:+523343036540@ims.izzi.mx in PrivateUserId already exists.)||NMS||1
+IZZIMXHFC||Could not translate bandwidth 'Neg_25x3'||NMS||13
+IZZIMXHFC||result: 'STRING' variable was expected but 'ARRAY' variable was returned||NMS||2
+IZZIMXHFC||No Address||NMS||16
+IZZIMXHFC||Already exists||NMS||2
+IZZIMXHFC||Request execution failed. Rollback done successfully.:RFS1-(agcf_qro:WS0007:Error in service=AgcfEntityProvService, operation=addMTADevice with errorcode=WS0007 and errormessage=Domain already exists)||NMS||1

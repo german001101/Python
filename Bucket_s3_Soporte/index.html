@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <title>Document</title>
+</head>
+
+<body onload="startTime()">
+    <div class="container-fluid">
+        <!--Logo y titulo principal-->
+        <header class="row header">
+            <div class="col align-self-center">
+                <img class="img-fluid" src="./img/symphonica.png" alt="symphonica">
+            </div>
+        </header>
+
+        <main class="row main">
+            <div class="col-6">
+                <h3 class="m-2">PLATFORM STATUS</h3>
+            </div>
+            <div class="col-6">
+                <h4 class="m-2">IZZI - Intraway</h4>
+            </div>
+        </main>
+
+        <div class="row hour">
+            <div class="col-6 " id="clockdate">
+                <h3 class="m-2" id="clock"></h3>
+            </div>
+            <div class="col-6 " id="clockdate">
+                <h4 class="m-2" id="date"></h4>
+            </div>
+        </div>
+
+        <!--State Connectors-->
+
+        <article class="row article">
+            <h2 class="m-2">STATE CONNECTORS</h2>
+        </article>
+        <aside class="row aside">
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <h2 class="m-2">AXTELLEGO</h2>
+                <div class="col-12 organization-connector">
+                    <p class="m-1 bg-success text-center rounded-3 border border-primary border-2 connector">connector-axtellego-01<br>UP</p>
+                    <p class="m-1 bg-success text-center rounded-3 border border-primary border-2 connector">connector-axtellego-02<br>UP</p>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <h2 class="m-2">IZZIMX</h2>
+                <div class="col-12 organization-connector">
+                    <p class="m-1 bg-success text-center rounded-3 border border-primary border-2 connector">connector-izzimx-01<br>UP</p>
+                    <p class="m-1 bg-success text-center rounded-3 border border-primary border-2 connector">connector-izzimx-02<br>UP</p>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <h2 class="m-2">IZZIMXHFC</h2>
+                <div class="col-12 organization-connector">
+                    <p class="m-1 bg-success text-center rounded-3 border border-primary border-2 connector">connector-hfc-01<br>UP</p>
+                    <p class="m-1 bg-success text-center rounded-3 border border-primary border-2 connector">connector-hfc-02<br>UP</p>
+                </div>
+            </div>
+        </aside>
+        <!--Estado de Elementos de Red-->
+        <article class="row article">
+            <h2 class="m-2">STATE NETWORK ELEMENTS</h2>
+        </article>
+        <aside class="row aside border-pr">
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <h2 class="m-2">AXTELLEGO</h2>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-IMS</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">AXTEL-AAA</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">ZMS-EM</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-AAA</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <h2 class="m-2">IZZIMX</h2>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">ZTE-EM-FALLBACK</p>
+                </tr>
+                <tr>
+                    <p class="bg-danger text-dark state-ne rounded-pill">DOWN</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-EM</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">AXTEL-AAA</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-IMS</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-AAA-FALLBACK</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">ZMS-EM</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-AAA</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">ZEQUENZE-ACS</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">HUAWEI-EM</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">ZTE-EM</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-EM-FALLBACK</p>
+                </tr>
+                <tr>
+                    <p class="bg-danger text-dark state-ne rounded-pill">DOWN</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">HUAWEI-EM-FALLBACK</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-IMS-FALLBACK</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">HUAWEI-EM-NCE-FALLBACK</p>
+                </tr>
+                <tr>
+                    <p class="bg-danger text-dark state-ne rounded-pill">DOWN</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">HUAWEI-EM-NCE</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <h2 class="m-2">IZZIMXHFC</h2>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">CIP-400-IWAY</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">CIP-596-IWAY</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">CONDOR</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">DEXTER</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">DOCSIS-400</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">DOCSIS-596</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">NOKIA-IMS</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">ZEQUENZE-ACS</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">DEXTER-400</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+                <tr>
+                    <p class="bg-light text-dark state-ne-title rounded">DEXTER-596</p>
+                </tr>
+                <tr>
+                    <p class="bg-success text-dark state-ne rounded-pill">UP</p>
+                </tr>
+            </div>
+        </aside>
+        <!--Gŕaficas de ordenes-->
+        <article class="row article">
+            <h2 class="m-2">PENDING RESOURCER ORDERS</h2>
+        </article>
+
+        <section class="row section">
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>AXTELLEGO</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>IZZIMX</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-12 col-lg-12">
+                <p>IZZIMXHFC</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+        </section>
+        <article class="row article m-2">
+            <h2 class="m-2">SERVICES ORDERS FAILED</h2>
+        </article>
+        <section class="row section">
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>AXTELLEGO</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>IZZIMX</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-12 col-lg-12">
+                <p>IZZIMXHFC</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+        </section>
+
+        <article class="row article">
+            <h2 class="m-2">RESOURCER ORDERS FAILED</h2>
+        </article>
+        <section class="row section">
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>AXTELLEGO</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>IZZIMX</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-12 col-lg-12">
+                <p>IZZIMXHFC</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+        </section>
+        <article class="row article">
+            <h2 class="m-2">ORDERS</h2>
+        </article>
+        <section class="row section">
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>AXTELLEGO</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-6 col-lg-6">
+                <p>IZZIMX</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+            <div class="col-xxl-4 col-xl-12 col-lg-12">
+                <p>IZZIMXHFC</p>
+                <img class="img-fluid" src="./img/service_count_Axtel.png" alt="">
+            </div>
+        </section>
+    </div>
+    <script src="./js/appReloj.js"></script>
+</body>
+
+</html>
